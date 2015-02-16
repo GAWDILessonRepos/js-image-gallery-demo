@@ -1,0 +1,82 @@
+@charset "UTF-8";
+/*—————————————————————————————————————————
+*****************Z-Index********************
+——————————————————————————————————————————*/
+/*—————————————————————————————————————————
+*****************Colors********************
+——————————————————————————————————————————*/
+/*——————————————————————————————————————————
+***************TYPOGRAPHY*****************
+——————————————————————————————————————————*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/WDI-Winter-2015\/js-image-gallery-demo\/app\/styles\/_gallery\.scss}line{font-family:\000031}}
+div.slider-container {
+  position: relative;
+  overflow: hidden;
+  height: 600px;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto 50px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/WDI-Winter-2015\/js-image-gallery-demo\/app\/styles\/_gallery\.scss}line{font-family:\000039}}
+div.slider-container div.slider-photos {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/WDI-Winter-2015\/js-image-gallery-demo\/app\/styles\/_gallery\.scss}line{font-family:\0000315}}
+div.slider-container div.slider-photos img.post-image {
+  height: auto;
+  position: absolute;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/WDI-Winter-2015\/js-image-gallery-demo\/app\/styles\/_gallery\.scss}line{font-family:\0000321}}
+div.slider-container div.slider-step {
+  z-index: 3;
+  position: absolute;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/WDI-Winter-2015\/js-image-gallery-demo\/app\/styles\/_gallery\.scss}line{font-family:\0000326}}
+div.slider-container div.slider-step a.slider-nav.prev {
+  position: relative;
+  float: left;
+  margin: 30% 10px;
+  font-size: 34px;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  text-indent: -9999px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/WDI-Winter-2015\/js-image-gallery-demo\/app\/styles\/_gallery\.scss}line{font-family:\0000335}}
+div.slider-container div.slider-step a.slider-nav.prev:after {
+  position: absolute;
+  content: '';
+  display: block;
+  width: 32px;
+  height: 32px;
+  top: 0;
+  left: 0;
+  background: url(../images/icons/gallery-prev.svg) no-repeat;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/WDI-Winter-2015\/js-image-gallery-demo\/app\/styles\/_gallery\.scss}line{font-family:\0000346}}
+div.slider-container div.slider-step a.slider-nav.next {
+  position: relative;
+  float: right;
+  margin: 30% 10px;
+  font-size: 34px;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  text-indent: -9999px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/WDI-Winter-2015\/js-image-gallery-demo\/app\/styles\/_gallery\.scss}line{font-family:\0000355}}
+div.slider-container div.slider-step a.slider-nav.next:after {
+  position: absolute;
+  content: '';
+  display: block;
+  width: 32px;
+  height: 32px;
+  top: 0;
+  left: -32px;
+  background: url(../images/icons/gallery-next.svg) no-repeat;
+}
